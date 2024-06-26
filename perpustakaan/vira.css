@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f6;
+}
+
+.content{
+  max-width: 800px;
+  margin: auto;
+  background-color: whitesmoke;
+  min-height:140vh;
+  box-shadow: 0px 7px 28px rgba(0,0,0,0.2); 
+
+}
+
+/* satu */
+
+.satu h1{
+    padding-top: 50px;
+    
+}
+
+.satu span{
+    font-size: 50px;
+}
+
+/* akhir satu */

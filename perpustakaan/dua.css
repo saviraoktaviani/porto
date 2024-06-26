@@ -1,0 +1,280 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* satu */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;       
+    z-index: 9999;
+    width: 100%;
+    background-color: #12CBC4;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0rem;
+
+}
+
+nav .logo {
+    font-size: 1.rem;
+    width: 30%;
+}
+
+nav .logo img {
+    padding:0;
+    margin: 0;
+    width: 90px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: inherit;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: #430df6;
+}
+
+/* akhit satu */
+
+
+/* dua */
+
+
+
+.contents {
+    text-align: center;
+    min-height: 28rem;
+    border-radius: 0 0 0% 0%;
+   
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.btn {
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #12CBC4;
+    border-color: #12CBC4;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+.btn:active{
+    transform: scale(0.97);
+}
+
+.btn:hover{
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #12CBC4;
+    border-color: #12CBC4;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+main{min-height: 100vh;}
+
+.contents {
+    text-align: center;
+    min-height: 26rem;
+    background-color: #c7ecee;
+    border-radius: 0 0 50% 50%;
+}  
+
+.content-wrapper img {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.contents h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+    color:#12CBC4;
+    padding-top: 30px;
+}
+
+.contents p{
+    text-shadow: 1.5px 1.5px white;
+   font-size: 23px;
+    color: black;
+}
+
+/* akhir dua */
+
+
+/* dua */
+
+.libary{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.book{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #12CBC4;
+    border-radius: 8px;
+    
+    display: inline-block;
+    background-color: white;
+    transition: tranform 0.3s ease;
+}
+
+
+.book:hover{
+    transform: scale(1.1);
+}
+
+
+
+ 
+
+
+h2{font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    color: #12CBC4;
+}
+
+
+span{
+    font-size: 10px;
+}
+
+h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 40px;
+    color:#12CBC4;
+}
+
+h3{
+    color: #30336b;
+}
+
+p{color:#12CBC4;}
+span{
+    font-size: 14px;
+}
+
+/* akhir dua */
+
+
+ .footer a{
+    color: black;
+ }
+ .footer {background-color: #12CBC4; height: 30px;}
+ .footer-logo{padding-right: 50px;
+           padding-top: 10px;
+               color: black;
+           font-weight: bold;}
+ 
+ .lala{
+    max-width: 500px;
+   margin: auto;
+   align-items: center;
+
+ }
+ 
+/* akhir tiga */
+
+/* responsif */
+
+@media (min-width: 320px) and (max-width: 767px){
+
+    .icon{
+        position: relative;
+     padding-top: 10px;
+       padding-left: 4rem;
+       transform: translateY(-50%);
+       width: 60%;
+       text-align: center;
+     }
+     
+     .tombol{
+       display: inline-block;
+       width: 40px;
+       height: 40px;
+       background: #84817a;
+       margin: 3px;
+       border-radius: 50%;
+       box-sizing: 0 5% 15% -5% #84817a;
+       overflow: hidden;
+       position: relative;
+       color: #f7f1e3;
+     }
+}
+
+@media screen and (min-width: 550px) {
+    .icon{
+        position: relative;
+     padding-top: 10px;
+       padding-left: 7rem;
+       transform: translateY(-50%);
+       width: 60%;
+       text-align: center;
+     }
+    
+      } 
+
+@media screen and(min-width: 640px) and (max-width: 1008px) {
+
+    .icon{
+        padding-left: 500rem
+    }
+    
+}

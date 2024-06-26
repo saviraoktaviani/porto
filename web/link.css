@@ -1,0 +1,562 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* satu */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #6a89cc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0rem;
+
+}
+
+nav .logo {
+    font-size: 1.rem;
+    width: 30%;
+}
+
+nav .logo img {
+    padding:0;
+    margin: 0;
+    width: 90px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li a {
+    color: inherit;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: #430df6;
+}
+
+/* akhit satu */
+
+
+/* dua */
+
+
+
+.contents {
+    text-align: center;
+    min-height: 28rem;
+    background-image: url(we.jpg);
+    border-radius: 0 0 50% 50%;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.btn {
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #6a89cc;
+    border-color: #6a89cc;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+.btn:active{
+    transform: scale(0.97);
+}
+
+.btn:hover{
+    padding: 18px 34px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #6a89cc;
+    border-color: #6a89cc;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+main{min-height: 100vh;}
+
+.contents {
+    text-align: center;
+    min-height: 26rem;
+    background-color: #ced6e0 ;
+    border-radius: 0 0 50% 50%;
+}  
+
+.content-wrapper img {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 70px;
+}
+
+.contents h1{
+    font-size: 40px;
+    color: #6a89cc;
+    font-family: 'Skranji', cursive;
+}
+
+.contents p{
+    text-shadow: 1.5px 1.5px white;
+   font-size: 23px;
+    color: black;
+}
+
+/* akhir dua */
+
+
+
+/* tiga */
+h2{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Mate', serif;
+    font-size: 20;
+}
+.content span{
+    font-family: 'Bad Script', cursive;
+}
+/* akhir tiga */
+.program a{
+  color: black;
+}
+
+/* empat */
+
+.caca{ margin: 30px 0 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin: 5px 15px;
+    gap:20px;
+    position: relative;
+  }
+  
+  .card {
+    width: 80%;
+    height: auto;
+    grid-column: span 8;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    width: 100%;
+    overflow: hidden;
+    background-color: #6a89cc;
+    
+  }
+  
+  
+  .card:hover{
+      transform: scale(1.1);
+      background-color: #445d92;
+  }
+  
+  .head-card img {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .body-card {
+    padding: 10px 15px;
+  }
+  
+  .body-card h1 {
+    margin: 0;  
+  
+  }
+  
+  .card a{
+    color: black;
+   }
+
+  spam{font-size: 20px;}
+  span{
+    font-family: 'Kaushan Script', cursive;
+  }
+
+/* akhir empat */
+
+
+/* lima */
+
+.icon{
+    position: relative;
+ padding-top: 10px;
+   padding-left: 6rem;
+   transform: translateY(-50%);
+   width: 60%;
+   text-align: center;
+ }
+ 
+ .tombol{
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background: #f1f1f1;
+   margin: 5px;
+   border-radius: 50%;
+   box-sizing: 0 5% 15% -5% #00000070;
+   overflow: hidden;
+   position: relative;
+   color: #2980b9;
+ }
+ 
+ .tombol i{
+   transition: 0.1s linear;
+   font-size: 26px;
+   line-height: 40px;
+ }
+ 
+ .tombol:hover i{
+  transform: scale(0.9);
+   color: #f1f1f1;
+ }
+ 
+ .tombol::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -110%;
+  top: 90%;
+  transform: rotate(45deg);
+  background: #3498db;
+ }
+ 
+ .tombol:hover:before{
+   left: -16%;
+   top: -16%;
+   animation:aaa 0.7s 1;
+ }
+ 
+ 
+ .footer {background-color: #6a89cc ; height: 30px;}
+ .footer-logo{padding-right: 50px;
+           padding-top: 10px;
+               color: white;
+           font-weight: bold;}
+ 
+ .lala{
+   background-image: linear-gradient(to bottom right,#d1ccc0, #ecf0f1,#c7ecee, #d1ccc0, #dff9fb);
+ }
+ 
+
+/* akhir lima */
+
+/* enam */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 20%;
+  margin-top: 20PX;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th {background-color: white}
+.adik{color: black;}
+.adik:hover{
+  box-shadow: 5px 5px 7px 7px rgba(0,0,0,0.2); 
+}    
+
+/* akhir enam */
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    nav {
+        flex-direction: initial;
+        margin: 0rem;
+    }
+
+    nav .logo {
+        margin-top: 0.5rem;
+        text-align: left;
+        
+    }
+
+    nav ul {
+        padding-inline-start: 0;
+        margin: 3rem;
+    }
+
+    h1 {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .content-wrapper {
+        max-width: 100% !important;
+        margin-top: auto;
+    }
+
+    .contents {
+        text-align: center;
+        min-height: 45rem;
+        background-color: #ced6e0;
+        border-radius: 0 0 50% 50%;
+    }
+
+    }
+
+
+
+
+
+@media screen and (min-width: 100px) {
+
+         .contents {
+             padding-top: 6rem;
+         }
+         .contents {
+             text-align: center;
+             min-height: 45rem;
+             background-color: #ced6e0;
+             border-radius: 0 0 50% 50%;
+         }
+         nav .logo {
+             margin-top: 1rem;
+             text-align: left;
+             margin-left: 65px;
+         }
+
+      } 
+         
+
+         table { width: 100%; border-collapse :collapse; border-spacing: 0 } table tr th:nth-child  {border-radius: 3px 0 0 0; border-left: 0px}
+
+@media screen and (min-width: 601px) {
+        nav .logo {
+            margin-top: 0;
+            text-align: left;}
+
+            .contents {
+                text-align: center;
+                min-height: 35rem;
+                background-color: #ced6e0;
+                border-radius: 0 0 50% 50%;
+            }
+
+  
+         }
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+            .content-wrapper img {display:none;}
+        
+            nav .logo {
+                margin-top: 0;
+                text-align: left;}
+        
+                .contents {
+                  text-align: center;
+                  min-height: 22rem;
+                  background-color: #ced6e0 ;
+                  border-radius: 0 0 20% 20%;
+                }  
+                button{
+                  color:#6a89cc ;
+                  padding: 8px 22px;
+                  border-radius: 6px;        
+                  background-color: white;
+                  transition: all 0.2s ease;
+                  margin-top: 50px;
+                  border: #6a89cc 1px solid;
+                  margin-bottom: 7px;
+                  margin-left: 110px;
+              }
+               
+              .img{
+                float: left;
+                width: 33.33%;
+                margin-left: 190px;
+                padding-top: 50px;
+              }
+
+              .icon{
+                position: relative;
+             padding-top: 10px;
+               padding-left: 6rem;
+               transform: translateY(-50%);
+               width: 60%;
+               text-align: center;
+             }
+             
+             .tombol{
+               display: inline-block;
+               width: 40px;
+               height: 40px;
+               background: #f1f1f1;
+               margin: 3px;
+               border-radius: 50%;
+               box-sizing: 0 5% 15% -5% #00000070;
+               overflow: hidden;
+               position: relative;
+               color: #2980b9;
+             }
+
+             .body-card svg {
+              width: 17px;
+              stroke-width:10px
+            }
+
+            .card{
+              width: 200px;
+            }
+        }
+
+
+
+@media screen and (min-width: 550px) {
+            .card {
+            grid-column: span 4;
+          
+          }
+        } 
+          
+@media screen and (min-width: 760px) {
+          
+            .card {
+            width: 350px;
+            margin: 0 10px;
+          }
+        }
+
+@media screen and (min-width: 960px) {
+          
+          }
+
+
+
+/* responsif kedua */
+
+@media screen and (min-width: 550px) {
+    .card {
+    grid-column: span 4;
+  
+  }
+  .savira{height: 80px;}
+
+  nav .logo {
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.contents {
+  text-align: center;
+  min-height: 26rem;
+  background-image: url(we.jpg);
+  border-radius: 0 0 30% 30%;
+}  
+
+.icon{
+  position: relative;
+padding-top: 10px;
+ padding-left: 7rem;
+ transform: translateY(-50%);
+ width: 60%;
+ text-align: center;
+}
+
+} 
+
+@media screen and (min-width: 760px) {
+  
+    .card {
+    width: 350px;
+    margin: 0 10px;
+  }
+
+  .savira{height: 100px;}
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+    border: 1px solid #ddd;
+  }
+  
+
+}
+table { width: 100%; border-collapse :collapse; border-spacing: 0 } table tr th:nth-child  {border-radius: 3px 0 0 0; border-left: 0px}
+.adik { width: 100%; border-collapse :collapse; border-spacing: 0 } table tr th:nth-child  {border-radius: 3px 0 0 0; border-left: 0px}
+@media screen and (min-width: 960px) {
+.savira{height: 100px;}
+
+}

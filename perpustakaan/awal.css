@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  
+}
+main{
+  max-width: 30%;
+  margin: 15rem auto;
+  padding: 10rem;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0, .3);
+}
+
+
+
+.destinasi{
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  
+}
+.destinasi h1{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.destinasi h1 span{
+  color: hotpink;
+}
+.btn1{
+  float: left;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn2{
+  float: left;
+  margin-left: 20px;
+  align-items: center;
+  margin-top: 30px;
+
+  border-radius: 30%;
+}
+
+button{
+  padding:5px 20px;
+  background-color: aquamarine;
+  color: black;
+  border: 0;
+ 
+  font-size: 20px;
+  transition: .6s ease;
+}
+
+button:hover{
+  transform: scale(1.1);
+
+}
+.btn2 .LIMA{
+  background: linear-gradient(135deg, #e1bac5 0%,#b68362 100%);
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 12rem;
+}
+
+.btn2 .LIMA:hover{
+  background: linear-gradient(135deg, #b68362 0%,#e1bac5 100%); 
+}
+.btn1 .satu{
+  background: -webkit-linear-gradient(135deg, #f8c291 0%, #f3a683 100%);
+}
+.btn1 .satu:hover{
+  background: -webkit-linear-gradient(135deg, #f3a683 0%, #f8c291 100%);
+}
+
+.btn1 .dua{
+  background: -webkit-linear-gradient(135deg, #c7ecee 0%, #12CBC4 100%);
+}
+.btn1 .dua:hover{
+  background: -webkit-linear-gradient(135deg, #12CBC4  0%, #c7ecee 100%);
+}
+.btn1 .tiga{
+  background: -webkit-linear-gradient(135deg, #ffcccc 0%, #fba4a4 100%); 
+}
+.btn1 .tiga:hover{
+  background: -webkit-linear-gradient(135deg, #fba4a4 0%, #ffcccc 100%);
+}
+.btn1 .empat{
+  background: -webkit-linear-gradient(135deg, rgb(222, 164, 164) 0%, rgb(139, 99, 99) 100%); 
+}
+.btn1 .empat:hover{
+  background: -webkit-linear-gradient(135deg, rgb(139, 99, 99) 0%, rgb(222, 164, 164) 100%);
+}
+
+/* responsife */
+@media screen and (max-width:450px){
+  .destinasi{
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    
+  }
+  .destinasi h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .destinasi h1 span{
+    color: hotpink;
+  }
+  
+}
+
+@media screen and (max-width: 750px){
+  .destinasi{
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    
+  }
+  .destinasi h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .destinasi h1 span{
+    color: hotpink;
+  }
+ 
+  } 
+  
+  /* kecil */
+@media (min-width: 320px) and (max-width: 800px){
+  main{
+    max-width: 100%;
+    margin: 15rem auto;
+    padding: 10rem;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0, .3);
+  }
+  .destinasi{
+    
+    
+    align-items: flex-start;
+    text-align: center;
+    
+  }
+  .destinasi h1{
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .destinasi h1 span{
+    color: hotpink;
+  }
+  .btn1{
+    float: left;
+    margin-left: 10px;
+   
+    margin-top: 30px;
+  }
+  
+  button{
+    float: left;
+    padding:5px 10px;
+    background-color: aquamarine;
+    color: black;
+    border: 0;
+   
+    font-size: 13px;
+    transition: .6s ease;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  main{
+    max-width: 100%;
+    margin: 15rem auto;
+    padding: 10rem;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0,0,0, .3);
+  }
+  
+}
+
+@media (min-width: 641px) and (max-width: 1007px){
+ 
+  .destinasi{
+    
+    
+    align-items: flex-start;
+    text-align: center;
+    
+  }
+  .destinasi h1{
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .destinasi h1 span{
+    color: hotpink;
+  }
+  .btn1{
+    float: left;
+    margin-left: 10px;
+   
+    margin-top: 30px;
+  }
+  
+  button{
+    float: left;
+    padding:5px 20px;
+    background-color: aquamarine;
+    color: black;
+    border: 0;
+   
+    font-size: 13px;
+    transition: .6s ease;
+  }
+}
